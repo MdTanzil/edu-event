@@ -3,7 +3,23 @@ import { FiLogIn } from "react-icons/fi";
 import { BiSearchAlt } from "react-icons/bi";
 import { SiGnuprivacyguard } from "react-icons/si";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { AuthContext } from "../Provider/AuthProvider";
+import toast from "react-hot-toast";
 const SmallNav = () => {
+  const { user, logout ,loading } = useContext(AuthContext);
+  const logOutHandle = () => {
+    
+    logout()
+      .then(() => {
+        toast.success('Logged out')
+      })
+      .catch((error) => {
+        // An error happened.
+      });
+
+  };
+
   return (
     <div className="flex bg-[rgb(4,10,23)] flex-wrap flex-col lg:flex-row text-white justify-between items-center">
       <div className="barlow  py-4 ml-6  lg:ml-6 flex items-center">
@@ -29,22 +45,48 @@ const SmallNav = () => {
           {" "}
           <BiSearchAlt />
         </button>
-        <Link to={"/login"}>
-          <div className="flex items-center btn-sm justify-center ">
-            <FiLogIn></FiLogIn>
-            <button className=" ml-2">Login</button>
-          </div>
-        </Link>
-        <Link to={"/register"}>
+
+        {!loading ?
+          (user ? (
+            <Link to={"/"}>
+              <div className="flex items-center btn-sm justify-center ">
+                <FiLogIn></FiLogIn>
+                <button onClick={logOutHandle} className=" ml-2">
+                  LogOut
+                </button>
+              </div>
+            </Link>
+          ) : (
+            <>
+              <Link to={"/login"}>
+                <div className="flex items-center btn-sm justify-center ">
+                  <FiLogIn></FiLogIn>
+                  <button className=" ml-2">Login</button>
+                </div>
+              </Link>
+              <Link to={"/register"}>
+                <div className="flex items-center btn-sm justify-center ">
+                  <SiGnuprivacyguard></SiGnuprivacyguard>
+                  <button className=" ml-2">Register</button>
+                </div>
+              </Link>
+            </>
+          )): <p className="text-sm text-rose-300">Loading</p>}
+        {/* <Link to={"/register"}>
           <div className="flex items-center btn-sm justify-center ">
             <SiGnuprivacyguard></SiGnuprivacyguard>
             <button className=" ml-2">Register</button>
           </div>
-        </Link>
+        </Link> */}
+        {/* <Link to={"/register"}>
+          <div className="flex items-center btn-sm justify-center ">
+            <SiGnuprivacyguard></SiGnuprivacyguard>
+            <button className=" ml-2">Register</button>
+          </div>
+        </Link> */}
       </div>
     </div>
   );
 };
 
 export default SmallNav;
-    
