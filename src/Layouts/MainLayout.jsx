@@ -1,10 +1,11 @@
 import { Outlet } from "react-router-dom";
+import SmallNav from "../Components/SmallNav";
 
 
 const MainLayout = () => {
     return (
         <div>
-            main
+           <SmallNav></SmallNav>
             <Outlet></Outlet>
         </div>
     );
