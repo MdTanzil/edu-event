@@ -1,17 +1,21 @@
 import Particles from "particlesjs";
 import "./Hero.css";
+import { useEffect } from "react";
 
 const Hero = () => {
-  window.onload =  function  () {
-    Particles.init({
-      selector: ".background",
-      color: ["#F8526B", " #f9f9f9", "rgb(4, 10, 23)"],
-      maxParticles: 180,
-      sizeVariations: 5,
-      speed: 1,
-      minDistance: 150,
-    });
-  };
+  // window.onload =  function  () {
+  //   Particles.init({
+  //     selector: ".background",
+  //     color: ["#F8526B", " #f9f9f9", "rgb(4, 10, 23)"],
+  //     maxParticles: 180,
+  //     sizeVariations: 5,
+  //     speed: 1,
+  //     minDistance: 150,
+  //   });
+  //   requestAnimationFrame(Particles)
+  // };
+
+
   return (
     <div className="roboto">
       <div className="hero h-[75vh] ">
