@@ -2,11 +2,13 @@ import { Outlet } from "react-router-dom";
 import SmallNav from "../Components/SmallNav";
 import NavBar from "../Components/NaVBar";
 import Footer from "../Components/Footer";
+import { Toaster } from "react-hot-toast";
 
 
 const MainLayout = () => {
     return (
         <div>
+            <Toaster/>
            <SmallNav></SmallNav>
            <NavBar></NavBar>
            <div className="container mx-auto">

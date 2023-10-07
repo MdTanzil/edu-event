@@ -1,7 +1,56 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
-
+import { AuthContext } from "../Provider/AuthProvider";
+import toast from "react-hot-toast";
+/**
+ * TODO:
+ * display errors when
+ * - is less than 6 characters
+ *- don't have a capital letter
+ *- don't have a special character
+ * 
+ * 
+ */
 
 const Register = () => {
+    const { registrations } = useContext(AuthContext);
+    const handleSubmit =(e)=>{
+        e.preventDefault();
+        const email = e.target.email.value;
+        const password = e.target.password.value;
+        console.log(!/^ {6,}$/ .test(password));
+        if(!/^.{6,20}$/.test(password)){
+            toast.error(
+              "Password should be contain 6 characters "
+            )
+            return;
+        }else if (!/^.*[A-Z].*/.test(password)) {
+          toast.error("don't have a capital letter ");
+          return;
+        } else if (!/^.*[^A-Za-z0-9].*/.test(password)) {
+          toast.error("don't have a special leater ");
+          return;
+        } else {
+          registrations(email, password)
+            .then((userCredential) => {
+              // Signed in
+              const user = userCredential.user;
+              console.log(user);
+              e.target.reset();
+              toast.success("Registrations Successful !");
+
+              // ...
+            })
+            .catch((error) => {
+              const errorCode = error.code;
+              const errorMessage = error.message;
+              console.warn(errorCode,errorMessage);
+            });
+        }
+
+        
+        // registrations(email,password);
+    }
     return (
       <div>
         <div
@@ -25,13 +74,13 @@ const Register = () => {
               </p>
             </div>
             <div className="card flex-1 w-full max-w-lg shadow-2xl bg-[#f1e5e7]  ">
-              <form className="card-body">
+              <form className="card-body" onSubmit={handleSubmit}>
                 <div className="form-control">
                   <label className="label">
                     <span className="label-text">Name</span>
                   </label>
                   <input
-                    type="email"
+                    type="text"
                     placeholder="name"
                     className="input input-bordered"
                     name="name"

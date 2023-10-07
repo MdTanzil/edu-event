@@ -1,4 +1,4 @@
-import Particles from "particlesjs";
+// import Particles from "particlesjs";
 import "./Hero.css";
 
 

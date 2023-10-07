@@ -54,8 +54,8 @@ const NavBar = () => {
               {navList}
             </ul>
           </div>
-          <a className="normal-case text-xl font-extrabold text-[#F8526B]">
-            <span className="text-black text-lg">Edu</span>Event
+          <a className="normal-case text-3xl font-extrabold text-[#F8526B]">
+            <span className="text-black text-xl">Edu</span>Event
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
