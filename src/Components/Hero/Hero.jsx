@@ -1,6 +1,6 @@
 import Particles from "particlesjs";
 import "./Hero.css";
-import { useEffect } from "react";
+
 
 const Hero = () => {
   // window.onload =  function  () {
