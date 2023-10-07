@@ -8,13 +8,13 @@ const SmallNav = () => {
       <div className="barlow  py-4 ml-6  lg:ml-6 flex items-center">
         <p className="inline-block ">Latest Activity:</p>
         <p className="lg:w-96 ml-2 p-1">
-          <Marquee className="">
-            <p className="font-medium  text-[#F8526B]">
+          <Marquee className="font-medium  text-[#F8526B]">
+            
               International Conference on Linguistics and English Literature
               (ICLELL) offers a platform for researchers and experts to discuss
               advancements in linguistics and literature. Papers will be
               peer-reviewed...
-            </p>
+            
           </Marquee>
         </p>
       </div>
@@ -26,7 +26,10 @@ const SmallNav = () => {
             className="input-sm bg-[#282d38] input-bordered w-24 md:w-auto rounded-lg"
           />
         </div>
-        <button className="btn-sm text-lg"> <BiSearchAlt /></button>
+        <button className="btn-sm text-lg">
+          {" "}
+          <BiSearchAlt />
+        </button>
 
         <div className="flex items-center btn-sm justify-center ">
           <FiLogIn></FiLogIn>

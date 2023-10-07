@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Educational Conference ",
+    "date": "2023-11-15",
+    "location": "City Convention Center",
+    "short_description": "Premier conference for educators and thought leaders to discuss the future of education.",
+    "description": "The Educational Conference 2023 is a premier gathering that brings together educators, thought leaders, and professionals from around the world. It serves as a platform to discuss and explore innovative ideas, emerging trends, and the future of education. Participants can engage in insightful discussions, attend keynote sessions by renowned speakers, and collaborate to shape the trajectory of the education landscape. Join us for an enriching experience as we collectively envision the next era of learning and teaching.",
+    "images": {
+      "thumbnail": "https://i.ibb.co/Nnrcqfx/pexels-photo-2833037.jpg",
+      "cover": "https://i.ibb.co/3MfPnrP/pexels-photo-4940642.jpg",
+      "full": "https://example.com/conference_image.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "name": "STEM Workshop ",
+    "date": "2023-12-01",
+    "location": "Tech Innovation Hub",
+    "short_description": "Hands-on workshops focusing on STEM subjects and forefront of educational innovation..",
+    "description": "The STEM Workshop Series is a dynamic event that offers a series of hands-on workshops dedicated to Science, Technology, Engineering, and Mathematics (STEM). Aimed at educators, students, and professionals, this series provides a unique opportunity to delve into the practical applications of STEM concepts. Participants can engage in interactive sessions, explore cutting-edge technologies, and gain valuable insights into the world of STEM. Join us for an immersive experience that empowers you to integrate STEM education into your curriculum and stay at the forefront of educational innovation.",
+    "images": {
+      "thumbnail": "https://i.ibb.co/L6n8DbX/pexels-photo-7869784.jpg",
+      "cover": "https://i.ibb.co/K7DN6tT/pexels-photo-3183197.jpg",
+      "full": "https://example.com/stem_workshop_image.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Literacy Symposium",
+    "date": "2024-02-10",
+    "location": "Community Library",
+    "short_description": "Event exploring innovative approaches to promote literacy in schools and communities.",
+    "description": "The Literacy Symposium is a thought-provoking event dedicated to exploring innovative approaches to promote literacy in schools and communities. Through engaging discussions, workshops, and presentations, participants will gain insights into effective literacy strategies, technological advancements in literacy education, and community-driven initiatives. Join us for a transformative experience that focuses on empowering individuals with the essential skills for lifelong learning and success.",
+    "images": {
+      "thumbnail": "https://i.ibb.co/WnWv1MJ/document-agreement-documents-sign-48148.jpg",
+      "cover": "https://i.ibb.co/kgVLpz8/pexels-photo-261719.jpg",
+      "full": "https://example.com/literacy_symposium_image.jpg"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Art and Creativity Expo",
+    "date": "2024-04-05",
+    "location": "City Art Gallery",
+    "short_description": "Exhibition showcasing the creative achievements of students and educators.",
+    "description": "The Art and Creativity Expo is a vibrant exhibition that celebrates the creative achievements of students and educators in the realm of arts and crafts. Through a diverse showcase of artwork, interactive installations, and live demonstrations, this event provides a platform for artistic expression and collaboration. Participants can explore innovative teaching methods, discover emerging talents, and be inspired by the power of creativity in education. Join us for an unforgettable experience that highlights the importance of fostering artistic skills in the learning journey.",
+    "images": {
+      "thumbnail": "https://i.ibb.co/41Xdw8n/pexels-photo-3660035.jpg",
+      "cover": "https://i.ibb.co/R3SFX3j/pexels-photo-3778144.jpg",
+      "full": "https://example.com/art_expo_image.jpg"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Tech Education Summit",
+    "date": "2024-06-20",
+    "location": "Tech Hub Auditorium",
+    "short_description": "Summit for tech enthusiasts discussing the integration of technology in education.",
+    "description": "The Tech Education Summit is a groundbreaking event that brings together tech enthusiasts, educators, and industry leaders to discuss the integration of technology in education. Through keynote presentations, panel discussions, and hands-on workshops, participants will explore the latest trends in educational technology, share best practices, and envision the future of tech-driven learning. Join us for a collaborative summit that empowers educators to leverage technology for enhanced teaching and prepares students for a digitally connected world.",
+    "images": {
+      "thumbnail": "https://i.ibb.co/f9bX52D/pexels-photo-1015568.jpg",
+      "cover": "https://i.ibb.co/42CdgZf/pexels-photo-4260325.jpg",
+      "full": "https://example.com/tech_summit_image.jpg"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Career Fairs,",
+    "date": "2024-08-15",
+    "location": "Green Earth Park",
+    "short_description": "Fair highlighting student projects focused on environmental science and sustainable practices.",
+    "description": "The Environmental Science Fair is an inspiring event that showcases student projects focused on environmental science and sustainable practices. Through interactive exhibits, educational presentations, and project displays, participants will gain insights into innovative solutions for environmental challenges. Join us for a fair that promotes awareness, appreciation, and understanding of our natural world, while empowering the next generation of environmental stewards.",
+    "images": {
+      "thumbnail": "https://i.ibb.co/qC3TY10/pexels-photo-6457579.jpg",
+      "cover": "https://i.ibb.co/PCz75g7/pexels-photo-5029929.jpg",
+      "full": "https://example.com/environmental_fair_image.jpg"
+    }
+  }
+]

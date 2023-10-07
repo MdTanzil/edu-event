@@ -21,6 +21,10 @@ const router = createBrowserRouter([
         element: <>services</>,
       },
       {
+        path: "/services/:id",
+        element: <>services details</>,
+      },
+      {
         path: "/blogs",
         element: <>blogs</>,
       },
