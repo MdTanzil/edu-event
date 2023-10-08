@@ -9,11 +9,13 @@ import Register from "../Pages/Register";
 import PrivateRoute from "./PrivateRoute";
 import Blogs from "../Pages/Blogs";
 import Events from "../Pages/Events";
+import Page404 from "../Pages/Page404";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement: <Page404></Page404>,
     children: [
       {
         path: "/",
