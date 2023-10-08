@@ -71,13 +71,19 @@ const NavBar = () => {
             <>
               {user?.photoURL ? (
                 <div className="avatar online">
-                  <div className="w-12 rounded-full">
+                  <div className="w-10 rounded-full">
                     <img src={user.photoURL} />
+                  </div>
+                </div>
+              ) : user?.displayName ? (
+                <div className="avatar online placeholder">
+                  <div className="bg-neutral-focus text-neutral-content rounded-full w-10">
+                    <span className="text-xl">{user?.displayName[0]}</span>
                   </div>
                 </div>
               ) : (
                 <div className="avatar online placeholder">
-                  <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
+                  <div className="bg-neutral-focus text-neutral-content rounded-full w-10">
                     <span className="text-xl">{user?.email[0]}</span>
                   </div>
                 </div>
