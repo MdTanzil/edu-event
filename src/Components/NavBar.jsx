@@ -16,18 +16,25 @@ const NavBar = () => {
     const navList = (
       <>
         <li className="font-medium ">
-          <NavLink to={"/"}>Home</NavLink>
+          <NavLink to={"/"} className="py-2">
+            Home
+          </NavLink>
         </li>
-        <li className="font-medium ">
-          <NavLink to={"/events"}>Events</NavLink>
+        <li className="font-medium  ">
+          <NavLink to={"/events"} className="py-2">
+            Events
+          </NavLink>
         </li>
 
         <li className="font-medium ">
-          <NavLink to={"/services"}>Service</NavLink>
+          <NavLink to={"/services"} className="py-2">
+            Service
+          </NavLink>
         </li>
         <li className="font-medium ">
-          <NavLink to={"/blogs"}>Blogs</NavLink>
-
+          <NavLink to={"/blogs"} className="py-2">
+            Blogs
+          </NavLink>
         </li>
       </>
     );

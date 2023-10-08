@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
 import toast from "react-hot-toast";
 /**
@@ -15,6 +15,10 @@ import toast from "react-hot-toast";
 const Register = () => {
     const { registrations, signInWithGoogle, updateUserData } =
       useContext(AuthContext);
+    const location = useLocation();
+    const navigate = useNavigate();
+
+
     const handleSubmit =(e)=>{
         e.preventDefault();
         const email = e.target.email.value;
@@ -48,6 +52,7 @@ const Register = () => {
               } else if (url) {
                 updateUserData('', url);
               }
+              navigate(location?.state ? location.state : "/");
               // ...
             })
             .catch((error) => {
@@ -64,6 +69,7 @@ const Register = () => {
       signInWithGoogle()
         .then((result) => {
           toast.success('Login successful')
+          navigate(location?.state ? location.state : "/");
         })
         .catch((error) => {
           toast.error("Something went wrong");
