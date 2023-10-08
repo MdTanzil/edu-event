@@ -1,4 +1,5 @@
 import Hero from "../Components/Hero/Hero";
+import OurTeam from "../Components/OurTeam";
 import Service from "../Components/Service";
 
 const HomePage = () => {
@@ -6,6 +7,7 @@ const HomePage = () => {
         <div>
             <Hero></Hero>
             <Service></Service>
+            <OurTeam></OurTeam>
         </div>
     );
 };
