@@ -4,11 +4,15 @@
  * 
  * 
  */
+import { useContext } from "react";
 import { NavLink } from "react-router-dom";
+import { AuthContext } from "../Provider/AuthProvider";
 
  
 
 const NavBar = () => {
+  const{user} = useContext(AuthContext)
+  console.log(user);
     const navList = (
       <>
         <li className="font-medium ">
@@ -63,6 +67,23 @@ const NavBar = () => {
         </div>
         <div className="navbar-end">
           {/* <a className="btn">Button</a> */}
+          {user && (
+            <>
+              {user?.photoURL ? (
+                <div className="avatar online">
+                  <div className="w-12 rounded-full">
+                    <img src={user.photoURL} />
+                  </div>
+                </div>
+              ) : (
+                <div className="avatar online placeholder">
+                  <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
+                    <span className="text-xl">{user?.email[0]}</span>
+                  </div>
+                </div>
+              )}
+            </>
+          )}
         </div>
       </div>
     );
