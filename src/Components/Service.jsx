@@ -21,9 +21,13 @@ const Service = () => {
       <div className="mt-10 mb-10">
         <Helmet>
           <title>eduEvent | Service</title>
-         
         </Helmet>
-        <h1 className="text-4xl mb-10 text-black text-center font-bold roboto capitalize">
+        <h1
+          className="text-4xl mb-10 text-black text-center font-bold roboto capitalize"
+          data-aos="flip-left"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           our service
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">

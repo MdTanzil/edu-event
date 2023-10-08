@@ -1,7 +1,12 @@
 const Contact = () => {
   return (
     <div>
-      <section className="mt-10">
+      <section
+        className="mt-10"
+        data-aos="fade-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         <h1 className="text-4xl mb-8 text-black text-center font-bold roboto capitalize">
           Contact Us
         </h1>

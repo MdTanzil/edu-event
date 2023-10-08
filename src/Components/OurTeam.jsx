@@ -13,7 +13,12 @@ const OurTeam = () => {
           Loved by businesses and individuals across the globe.
         </h3>
         <div className="grid lg:grid-cols-4  grid-cols-1 gap-4">
-          <div className="p-4 shadow-xl m-5">
+          <div
+            className="p-4 shadow-xl m-5"
+            data-aos="zoom-in-right"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <img
               src="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/p1-team-1.jpg"
               alt=""
@@ -22,11 +27,14 @@ const OurTeam = () => {
             <h3 className="barlow text-xl font-semibold text-[#040a17] my-3">
               Keisha Chapman
             </h3>
-            <p className="barlow text-sm font-medium text-[#a9a9a9]">
-              Manager
-            </p>
+            <p className="barlow text-sm font-medium text-[#a9a9a9]">Manager</p>
           </div>
-          <div className="p-4 shadow-xl m-5">
+          <div
+            className="p-4 shadow-xl m-5"
+            data-aos="zoom-in-left"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <img
               src="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/p1-team-6.jpg"
               alt=""
@@ -39,7 +47,12 @@ const OurTeam = () => {
               Social Media Manager
             </p>
           </div>
-          <div className="p-4 shadow-xl m-5">
+          <div
+            className="p-4 shadow-xl m-5"
+            data-aos="zoom-in-left"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <img
               src="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/p1-team-3.jpg"
               alt=""
@@ -52,7 +65,12 @@ const OurTeam = () => {
               Developer
             </p>
           </div>
-          <div className="p-4 shadow-xl m-5">
+          <div
+            className="p-4 shadow-xl m-5"
+            data-aos="zoom-in-right"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <img
               src="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/p1-team-4.jpg"
               alt=""
@@ -63,7 +81,12 @@ const OurTeam = () => {
             </h3>
             <p className="barlow text-sm font-medium text-[#a9a9a9]">CEO</p>
           </div>
-          <div className="p-4 shadow-xl m-5">
+          <div
+            className="p-4 shadow-xl m-5"
+            data-aos="zoom-in-right"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <img
               src="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/p1-team-5.jpg"
               alt=""
@@ -73,10 +96,15 @@ const OurTeam = () => {
               Jordan-Lee Meyers
             </h3>
             <p className="barlow text-sm font-medium text-[#a9a9a9]">
-             Interior Designer
+              Interior Designer
             </p>
           </div>
-          <div className="p-4 shadow-xl m-5">
+          <div
+            className="p-4 shadow-xl m-5"
+            data-aos="zoom-in-right"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <img
               src="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/p1-team-6.jpg"
               alt=""
@@ -89,7 +117,12 @@ const OurTeam = () => {
               Executive Manager
             </p>
           </div>
-          <div className="p-4 shadow-xl m-5">
+          <div
+            className="p-4 shadow-xl m-5"
+            data-aos="zoom-in-left"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <img
               src="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/p1-team-7.jpg"
               alt=""
@@ -102,7 +135,12 @@ const OurTeam = () => {
               Designer
             </p>
           </div>
-          <div className="p-4 shadow-xl m-5">
+          <div
+            className="p-4 shadow-xl m-5"
+            data-aos="zoom-in-right"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <img
               src="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/p1-team-8.jpg"
               alt=""

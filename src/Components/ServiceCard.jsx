@@ -7,7 +7,11 @@ const ServiceCard = ({ service }) => {
     const { name, short_description,images,id } = service;
     
   return (
-    <div className="card lg:card-side bg-base-100 shadow-xl">
+    <div
+      className="card lg:card-side bg-base-100 shadow-xl"
+      data-aos="flip-left"
+      data-aos-duration="1500"
+    >
       <figure>
         <img src={images.thumbnail} alt="Album" className="h-72 w-96" />
       </figure>
