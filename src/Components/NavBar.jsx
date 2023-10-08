@@ -73,7 +73,15 @@ const NavBar = () => {
           <ul className="menu menu-horizontal px-1 capitalize">{navList}</ul>
         </div>
         <div className="navbar-end">
-          {/* <a className="btn">Button</a> */}
+          {(user && user?.displayName) && (
+            <>
+              <p>
+                {" "}
+                Hello <span className="text-[#F8526B] font-semibold">{user?.displayName} !</span>
+                {"  "}
+              </p>
+            </>
+          )}
           {user && (
             <>
               {user?.photoURL ? (
