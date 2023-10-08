@@ -1,3 +1,4 @@
+import Contact from "../Components/Contact";
 import Hero from "../Components/Hero/Hero";
 import OurTeam from "../Components/OurTeam";
 import Service from "../Components/Service";
@@ -8,6 +9,7 @@ const HomePage = () => {
             <Hero></Hero>
             <Service></Service>
             <OurTeam></OurTeam>
+            <Contact></Contact>
         </div>
     );
 };
