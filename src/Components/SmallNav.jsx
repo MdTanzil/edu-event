@@ -14,9 +14,7 @@ const SmallNav = () => {
       .then(() => {
         toast.success('Logged out')
       })
-      .catch((error) => {
-        // An error happened.
-      });
+      
 
   };
 
