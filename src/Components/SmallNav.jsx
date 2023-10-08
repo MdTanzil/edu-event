@@ -8,7 +8,6 @@ import { AuthContext } from "../Provider/AuthProvider";
 import toast from "react-hot-toast";
 const SmallNav = () => {
   const { user, logout ,loading } = useContext(AuthContext);
-  console.log(user);
   const logOutHandle = () => {
     
     logout()

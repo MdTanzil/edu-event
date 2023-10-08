@@ -12,7 +12,7 @@ import { AuthContext } from "../Provider/AuthProvider";
 
 const NavBar = () => {
   const{user} = useContext(AuthContext)
-  console.log(user);
+  
     const navList = (
       <>
         <li className="font-medium ">
