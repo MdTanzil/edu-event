@@ -77,7 +77,7 @@ const NavBar = () => {
             <>
               <p>
                 {" "}
-                Hello <span className="text-[#F8526B] font-semibold">{user?.displayName} !</span>
+                Hello !<span className="text-[#F8526B] font-semibold">{user?.displayName} </span>
                 {"  "}
               </p>
             </>

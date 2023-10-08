@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Contact from "../Components/Contact";
 import Hero from "../Components/Hero/Hero";
 import OurTeam from "../Components/OurTeam";
@@ -5,12 +6,16 @@ import Service from "../Components/Service";
 
 const HomePage = () => {
     return (
-        <div>
-            <Hero></Hero>
-            <Service></Service>
-            <OurTeam></OurTeam>
-            <Contact></Contact>
-        </div>
+      <div>
+        <Helmet>
+          <title>eduEvent | Home</title>
+          
+        </Helmet>
+        <Hero></Hero>
+        <Service></Service>
+        <OurTeam></OurTeam>
+        <Contact></Contact>
+      </div>
     );
 };
 

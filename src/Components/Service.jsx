@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ServiceCard from "./ServiceCard";
+import { Helmet } from "react-helmet-async";
 
 /**
  * TODO:
@@ -18,6 +19,10 @@ const Service = () => {
     // console.log(services);
     return (
       <div className="mt-10 mb-10">
+        <Helmet>
+          <title>eduEvent | Service</title>
+         
+        </Helmet>
         <h1 className="text-4xl mb-10 text-black text-center font-bold roboto capitalize">
           our service
         </h1>

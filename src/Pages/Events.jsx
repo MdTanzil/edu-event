@@ -1,8 +1,13 @@
+import { Helmet } from "react-helmet-async";
 
 
 const Events = () => {
     return (
       <div className="grid grid-cols-2 gap-10 mt-10">
+        <Helmet>
+          <title>eduEvent | Events</title>
+          
+        </Helmet>
         <div className=" relative h-auto w-auto flex-col justify-center overflow-hidden ">
           <div className="absolute "></div>
           <div className="group relative m-0 flex h-72 w-96 rounded-xl shadow-xl  sm:mx-auto sm:max-w-lg">

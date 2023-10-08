@@ -1,6 +1,15 @@
+import { Helmet } from "react-helmet-async";
+
 const Blogs = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2">
+      <Helmet>
+        <title>eduEvent | Blog</title>
+        <meta
+          name="description"
+          content="Beginner friendly page for learning React Helmet."
+        />
+      </Helmet>
       <div className="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20">
         <div className="flex justify-center md:justify-end -mt-16">
           <img
@@ -133,7 +142,6 @@ const Blogs = () => {
           </a>
         </div>
       </div>
-     
     </div>
   );
 };

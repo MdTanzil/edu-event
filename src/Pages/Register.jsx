@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
 import toast from "react-hot-toast";
+import { Helmet } from "react-helmet-async";
 /**
  * TODO:
  * display errors when
@@ -78,6 +79,10 @@ const Register = () => {
     }
     return (
       <div>
+        <Helmet>
+          <title>eduEvent | Register</title>
+          
+        </Helmet>
         <div
           className="hero min-h-screen bg-base-200"
           style={{
