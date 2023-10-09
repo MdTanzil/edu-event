@@ -26,7 +26,7 @@ const Service = () => {
           className="text-4xl mb-10 text-black text-center font-bold roboto capitalize"
           data-aos="flip-left"
           data-aos-easing="linear"
-          data-aos-duration="1000"
+          data-aos-duration="500"
         >
           our service
         </h1>

@@ -9,8 +9,8 @@ const ServiceCard = ({ service }) => {
   return (
     <div
       className="card lg:card-side bg-base-100 shadow-xl"
-      data-aos="flip-left"
-      data-aos-duration="1500"
+      data-aos="flip-up"
+      data-aos-duration="1000"
     >
       <figure>
         <img src={images.thumbnail} alt="Album" className="h-72 w-96" />

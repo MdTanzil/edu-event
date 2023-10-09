@@ -17,7 +17,7 @@ const OurTeam = () => {
             className="p-4 shadow-xl m-5"
             data-aos="zoom-in-right"
             data-aos-easing="linear"
-            data-aos-duration="1000"
+            data-aos-duration="500"
           >
             <img
               src="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/p1-team-1.jpg"
@@ -33,7 +33,7 @@ const OurTeam = () => {
             className="p-4 shadow-xl m-5"
             data-aos="zoom-in-left"
             data-aos-easing="linear"
-            data-aos-duration="1000"
+            data-aos-duration="500"
           >
             <img
               src="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/p1-team-6.jpg"
@@ -51,7 +51,7 @@ const OurTeam = () => {
             className="p-4 shadow-xl m-5"
             data-aos="zoom-in-left"
             data-aos-easing="linear"
-            data-aos-duration="1000"
+            data-aos-duration="500"
           >
             <img
               src="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/p1-team-3.jpg"
@@ -69,7 +69,7 @@ const OurTeam = () => {
             className="p-4 shadow-xl m-5"
             data-aos="zoom-in-right"
             data-aos-easing="linear"
-            data-aos-duration="1000"
+            data-aos-duration="500"
           >
             <img
               src="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/p1-team-4.jpg"
@@ -85,7 +85,7 @@ const OurTeam = () => {
             className="p-4 shadow-xl m-5"
             data-aos="zoom-in-right"
             data-aos-easing="linear"
-            data-aos-duration="1000"
+            data-aos-duration="500"
           >
             <img
               src="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/p1-team-5.jpg"
@@ -103,7 +103,7 @@ const OurTeam = () => {
             className="p-4 shadow-xl m-5"
             data-aos="zoom-in-right"
             data-aos-easing="linear"
-            data-aos-duration="1000"
+            data-aos-duration="500"
           >
             <img
               src="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/p1-team-6.jpg"
@@ -121,7 +121,7 @@ const OurTeam = () => {
             className="p-4 shadow-xl m-5"
             data-aos="zoom-in-left"
             data-aos-easing="linear"
-            data-aos-duration="1000"
+            data-aos-duration="500"
           >
             <img
               src="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/p1-team-7.jpg"
@@ -139,7 +139,7 @@ const OurTeam = () => {
             className="p-4 shadow-xl m-5"
             data-aos="zoom-in-right"
             data-aos-easing="linear"
-            data-aos-duration="1000"
+            data-aos-duration="500"
           >
             <img
               src="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/p1-team-8.jpg"
