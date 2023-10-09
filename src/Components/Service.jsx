@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import ServiceCard from "./ServiceCard";
 import { Helmet } from "react-helmet-async";
+import { useLocation } from "react-router-dom";
 
 /**
  * TODO:
@@ -16,12 +17,22 @@ const Service = () => {
           .then((res) => res.json())
           .then((data) => setServices(data));
     }, []);
+    const location = useLocation()
+    
     // console.log(services);
     return (
       <div className="mt-10 mb-10">
-        <Helmet>
+        {
+          location?.pathname === '/' ?
+           (<Helmet>
+          <title>eduEvent | Home</title>
+        </Helmet>)
+         :
+        <>
+         <Helmet>
           <title>eduEvent | Service</title>
-        </Helmet>
+        </Helmet></>
+        }
         <h1
           className="text-4xl mb-10 text-black text-center font-bold roboto capitalize"
           data-aos="flip-left"
