@@ -1,8 +1,17 @@
-# React + Vite
+# EduEvent
+### Live Link 
+[EduEvent](https://edu-event-29a6c.web.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+##  Project features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Use fairebase email and passwoed authentication and google authentication
+*  Useing private route for some route
+* AoS and react-tsparticles package use for animation and react-helmet-async use for update title var 
+
+
+
+## Authors
+
+- [@MdTanzil](https://github.com/MdTanzil)
+
