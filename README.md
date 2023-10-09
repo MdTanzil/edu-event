@@ -5,9 +5,9 @@
 
 ##  Project features
 
-* Use fairebase email and passwoed authentication and google authentication
+* Use firebase email and password authentication and google authentication
 *  Useing private route for some route
-* AoS and react-tsparticles package use for animation and react-helmet-async use for update title var 
+* AoS and react-tsparticles package use for animation and react-helmet-async use for update title bar 
 
 
 
